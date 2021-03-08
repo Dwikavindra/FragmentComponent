@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.HomeFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+<!--perbedaan layout gravity dan gravity
+    gravity buat ngatur mo di center,start,atau end
+     komponen yang ada di dalemnya
+     kalau layout gravity buat ngatur si layoutnya kalau misalkan kamu
+     ada layout lagi di dalemnya trus mau mindahin semua layout ke tengah tapi komponen
+     dalemnya pengen di tengah aja
+     nah ya udh tinggal pindahin aja layoutnya aja kan
+
+        -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="detail" />
+
+</LinearLayout>
